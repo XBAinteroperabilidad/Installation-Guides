@@ -1,0 +1,8 @@
+
+# Self-signed TLS certs / keystores / keys generated locally (see scripts/generate-certs.sh
+# in the Burokratt hub repo) — never committed.
+**/cert.crt
+**/key.key
+**/*.pem
+**/*.jks
+**/*.srl
