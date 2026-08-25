@@ -127,9 +127,9 @@ services:
       - security.oauth2.client.client-secret=tara_client_secret
       - security.oauth2.client.registered-redirect-uri=https://localhost:8085/authenticate
       - security.oauth2.client.user-authorization-uri=http://localhost:9080/realms/burokratt/protocol/openid-connect/auth
-      - security.oauth2.client.access-token-uri=http://10.0.2.15:9080/realms/burokratt/protocol/openid-connect/token
-      - security.oauth2.client.user-info-uri=http://10.0.2.15:9080/realms/burokratt/protocol/openid-connect/userinfo
-      - security.oauth2.resource.jwk.key-set-uri=http://10.0.2.15:9080/realms/burokratt/protocol/openid-connect/certs
+      - security.oauth2.client.access-token-uri=http://byk-keycloak:8080/realms/burokratt/protocol/openid-connect/token
+      - security.oauth2.client.user-info-uri=http://byk-keycloak:8080/realms/burokratt/protocol/openid-connect/userinfo
+      - security.oauth2.resource.jwk.key-set-uri=http://byk-keycloak:8080/realms/burokratt/protocol/openid-connect/certs
       - auth.success.redirect.whitelist=https://admin.byk.buerokratt.ee/auth/callback,https://byk.buerokratt.ee,https://byk.buerokratt.ee/auth/callback,https://admin.byk.buerokratt.ee,https://localhost:3001/auth/callback,https://localhost:3001
 
 
