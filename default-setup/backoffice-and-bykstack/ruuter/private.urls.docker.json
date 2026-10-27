@@ -3,7 +3,7 @@
     "ruuter_url": "https://localhost:8443",
     "tim_url": "https://byk-tim:8443",
     "resql_url": "https://byk-resql:8443",
-    "bot_url": "http://BOT_IP:5005",
+    "bot_url": "http://llm-gateway:8200",
     "training_url": "TRAINIG_BOT",
     "training_user": "TRAINING_BOT_USERNAME",
     "training_prv_key": "TRAINIG_BOT_PRIVATE_SSH_KEY_PATH",
